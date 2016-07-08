@@ -17,7 +17,7 @@ grade = args.grade
 fromdate = args.fromdate
 todate = args.todate
 
-filename = 'aqad-{0}_{1}-Grades_{2}.csv'.format(fromdate,todate,grade)
+filename = 'aqad-{0}_{1}-.csv'.format(fromdate,todate)
 
 #convert time from string to a date-time struct
 convfromdate = datetime.datetime.strptime(fromdate,"%Y-%m-%d").date()
